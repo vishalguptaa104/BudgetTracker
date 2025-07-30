@@ -1,0 +1,72 @@
+/* Container */
+.app-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Title */
+.app-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Add Transaction Box */
+.transaction-box {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.transaction-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.input {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.button {
+  background: #007BFF;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #0056b3;
+}
+
+/* Row Layout */
+.row {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Cards */
+.card {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.transaction-list {
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-between;
+}
